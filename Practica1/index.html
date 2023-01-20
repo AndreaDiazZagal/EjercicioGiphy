@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica_1_MAPE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" id="btn_busqueda" aria-current="page" href="#"> <i data-feather="search"></i>
+              &nbsp;Buscar GIF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"> <i data-feather="gift"></i> &nbsp;Random GIF</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <form id="form">
+          <div class="input-group">
+            <input type="text" id="search" class="form-control" placeholder="Búsqueda de Gifs..."aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+            <button type="submit" id="btn" class="btn btn-success">Buscar</button>
+          </div>
+        </form>
+      </div>
+      <br>
+      
+    </div>
+    <div id="gifts" class="col-md-6 col-12">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./Gif.js"></script>
+
+
+</body>
+
+</html>
